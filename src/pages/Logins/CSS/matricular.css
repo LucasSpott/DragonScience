@@ -1,0 +1,99 @@
+
+
+
+input{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.matricular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    margin-top: 7rem;
+    margin-left: 25rem;
+    border-radius: 50px 50px 50px 150px;
+    padding: 10px 15px;
+    background: linear-gradient(80deg, rgb(175, 175, 175) 60%, rgb(177, 177, 177) 20%, rgb(209, 216, 252) 100%);
+}
+.label{
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.btn-matricular{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.bt-Log{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.btn-voltar{
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+@media (max-width: 1000px){
+    .matricular{
+        width: 25.9rem;
+        margin-top: 10rem;
+        margin-left: 0rem;
+    }
+    input{
+        width: 20rem;
+    }
+    .label-Email{
+        margin-top: 2rem;
+    }
+    .bt-Log, .btn-voltar{
+        font-size: 1.5rem;
+    }
+}
+    

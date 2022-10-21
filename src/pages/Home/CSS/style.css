@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+/* 
+CSS DA TODA PAGINA HOME
+ */
+*{
+    margin: 0;    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+}
+.header{
+    line-height: 50px;
+}
+.nav-H2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-Header, .a-logo{
+    width: 27%;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.a-Head{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: black;
+}
+.entrar{
+    display: block;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+.btn-Head, .btn-Head-Log{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    font-weight: 400;
+    align-items: center;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* FIM DO HEADER */
+/* INICIO DO MAIN */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.div-Main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 6.5rem;
+}
+.h1-Main{
+    font-size: 2.5rem;
+    display: block;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 10rem;
+    margin-left: 30rem;
+    width: 60%;
+    color: rgb(0, 0, 0);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+.pp-Main{
+    font-size: 1.6rem;
+    position: absolute;
+    margin-top: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 35rem;
+    width: 44%;
+    color: rgb(0, 0, 0);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+span{
+    animation: aninSpan 2000ms ease-in-out infinite;
+    font-size: 2.5rem;
+    color: rgb(91, 2, 255);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+span:nth-child(1){
+    animation-delay: 0s;
+}
+@keyframes aninSpan{
+    0%{
+        opacity: 0;
+       transform: scale(1);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(10);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.main-List{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-List-Item{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    width: 29%;
+    margin: 10px;
+    margin-right: 2rem;
+    box-shadow: 0px 2px 2px 2px rgb(0, 0, 0);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.main-List-Item:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 2px rgb(0, 0, 0);
+    margin-bottom: 50px;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s;
+}
+.img-Angular{
+    width: 1.8rem;
+    margin-bottom: 10px;
+}
+.img-React{
+    width: 9%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.img-Htmlcss{
+    width: 16%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.img-Php{
+    width: 10%;
+}
+.img-MySql{
+    width: 12%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.img-Postgre{
+    width: 14%;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+.p-List{
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.h2-List{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+.img-LogoCodigo{
+    width: 10%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* INICIO PLANOS */
+.div-Planos{
+    background-color: #fffefe;
+    display: flex;
+    justify-content: space-around;
+}
+.a-Planos{
+    text-decoration: none;
+    color: black;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.h2-Planos{
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.button-Planos{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button-Planos:hover{
+    color: black;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.8s;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+    transform: translate(20px, 0px);
+}
+.footer-Org{
+    color: white;
+    position: absolute;
+    margin-top: 24rem;
+    margin-left: 8rem;
+}
+.fundoCode{
+    width: 37%;
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 40rem;
+    z-index: -1;
+    animation: fundoImg 10s infinite ease-in-out alternate;
+}
+@keyframes fundoImg {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+h6{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: rgb(252, 92, 225);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+h6:hover{
+    color: white;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.8s;
+}
+
+
+
+
+/* FIM DO MAIN */
+/* INICIO DO FOOTER */
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.footer-List{
+    display: flex;
+}
+.footer-List-Item{
+    padding: 20px 0;
+    Letter-spacing: 1px;
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.fp-List{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+/* FIM DO FOOTER */
+
+
+
+/* INICIO DO MEDIA QUERYS */
+
+
+/*
+@media screen and (max-width: 480px){
+    .main-List-Item{
+        width: 19.6rem;
+        align-items: center;
+    }
+    .logo-Header, .a-logo{
+        width: 7rem;
+        display: block;
+        margin-left: 4.3rem;
+    }
+    .pp-Main{
+        font-size: 1rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    .fundoCode{
+        display: none;
+    }
+    span{
+        font-size: 1.5rem;
+        display: block;
+        animation: anin 2s ease-out infinite;
+    }
+    @keyframes anin {
+        0%{
+           opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }  
+    }
+    h6{
+        font-size: 0.6rem;
+    }
+    .h1-Main{
+        font-size: 1.3rem;
+        margin-left: 3.5rem;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .div-Main-1{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 7rem;
+        margin-top: 0rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-H2{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+    .a-Head{
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+    .entrar{
+        display: block;
+        margin-right: 0px;
+        margin-top: 15px;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        cursor: pointer;
+        color: black;
+    }
+    .p-List{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .footer-List{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-Org{
+        margin-top: 21rem;
+        margin-left: 1.5rem;
+        margin-right: 0;
+    }
+    .h2-List{
+        font-size: 1.2rem;
+    }
+    .fp-List{
+        font-size: 0.7rem;
+    }
+    .btn-Head-Log{
+        position: absolute;
+        top: 0;
+        right: 5rem;
+        margin: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        color: black;
+    }
+    .btn-Head{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        color: black;
+    }
+    .btn-Head:hover{
+        color: red;
+        transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.8s;
+    }
+    .entrar{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .div-Planos{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .h2-Planos{
+        text-align: center;
+        margin: 1rem;
+    }
+    .button-Planos{
+        margin-left: 40%;
+    }
+    .h2-Planos{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .a-Planos{
+        font-size: 1.2rem;
+        color: black;
+        margin-left: 0rem;
+    }
+    .button-Planos{
+        font-size: 1rem;
+        margin-left: 1rem;
+        padding: 8px;
+    }
+}
+*/
+
+@media (max-width: 1000px){
+    .main-List-Item{
+        width: 20rem;
+        margin: 0.5rem;
+        align-items: center;
+    }
+    .main-List{
+        margin: 0;
+        display: inline-flex;
+        flex-direction:row ;
+        justify-content: space-between;
+    }
+    .logo-Header, .a-logo{
+        width: 7rem;
+        display: block;
+        margin-left: 4.3rem;
+    }
+    .pp-Main{
+        font-size: 1rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    .fundoCode{
+        display: none;
+    }
+    span{
+        font-size: 1.5rem;
+        display: block;
+        animation: anin 2s ease-out infinite;
+    }
+    @keyframes anin {
+        0%{
+           opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }  
+    }
+    h6{
+        font-size: 0.6rem;
+    }
+    .h1-Main{
+        font-size: 1.3rem;
+        margin-left: 3rem;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .div-Main-1{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 7rem;
+        margin-top: 0rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-H2{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+    .a-Head{
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+    .entrar{
+        display: block;
+        margin-right: 0px;
+        margin-top: 15px;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        cursor: pointer;
+        color: black;
+    }
+    .p-List{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer-List{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .footer-Org{
+        margin-top: 21rem;
+        margin-left: 10rem;
+        margin-right: 0;
+    }
+    .h2-List{
+        font-size: 1.2rem;
+    }
+    .fp-List{
+        font-size: 0.7rem;
+    }
+    .btn-Head-Log{
+        position: absolute;
+        top: 0;
+        right: 5rem;
+        margin: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        color: black;
+    }
+    .btn-Head{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        color: black;
+    }
+    .btn-Head:hover{
+        color: red;
+        transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.8s;
+    }
+    .entrar{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .div-Planos{
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: left;
+        justify-content: left;
+        text-align: center;
+    }
+    .h2-Planos{
+        text-align: center;
+        margin: 1rem;
+    }
+    .button-Planos{
+        margin-left: 40%;
+    }
+    .h2-Planos{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .a-Planos{
+        font-size: 1.2rem;
+        color: black;
+        margin-left: 0rem;
+    }
+    .button-Planos{
+        font-size: 1rem;
+        margin-left: 0rem;
+        padding: 8px;
+    }
+}

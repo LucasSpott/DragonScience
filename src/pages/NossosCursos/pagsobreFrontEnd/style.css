@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Asap&family=Francois+One&family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+.um-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 10rem;
+    margin-left: 50px;
+}
+b{
+    font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-right: 100px;
+    text-align: left;
+    line-height: 1.5;
+}
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.sites{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sites:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+@media screen and (max-width: 1000px){
+    .um-container{
+        margin-top: 1;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+    .photos{
+       margin-left: 1rem;
+    }
+    p{
+        margin-right: 0;
+    }
+    .sites{
+        width: 100%;
+    }
+    .sites:hover{
+        transform: scale(1.2);
+        transition: 0.8s;
+    }
+}

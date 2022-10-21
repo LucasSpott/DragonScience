@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+
+.login{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    border: none;
+    box-shadow: 5px 10px 2px 5px rgba(0, 0, 0, 0.2);
+    height: 29.5rem;
+    margin-top: 7rem;
+    margin-left: 25rem;
+    border-radius: 50px 50px 50px 150px;
+    padding: 10px 15px;
+    background: linear-gradient(80deg, rgb(175, 175, 175) 60%, rgb(177, 177, 177) 20%, rgb(209, 216, 252) 100%);
+}
+.label-Email{
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    font-weight: light;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    margin-top: 6rem;
+}
+.btn-login{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.6rem 0;
+}
+.bt-matricular{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+#erro{
+    color: red;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    margin-left: 6.5rem ;
+}
+.invisi{
+    background: linear-gradient(80deg, rgb(74, 27, 243) 60%, rgb(72, 30, 223) 0%, rgb(60, 61, 66) 100%);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.bt-voltar{
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.cellphone{
+    width: 20%;
+    position: absolute;
+    margin-left: 30rem;
+    bottom: 20em;
+    animation: aniCell 7s infinite ease-in-out;
+}
+@media (max-width: 1000px){
+    .login{
+        margin-left: 0rem;
+        margin-top: 8rem;
+        width:  26rem;
+        height: 30rem;
+    }
+    .label-Login{
+    font-size: 2rem;
+    margin: 0.5rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: light;
+    color: black;
+    }
+    .label-Email{
+    font-size: 2rem;
+    margin: 0.5rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: light;
+    color: black;
+    margin-top: 6rem;
+    }
+    .btn-login{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.6rem 0;
+    }
+    .bt-matricular{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    }
+    #erro{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    margin-left: 6.5rem ;
+    }
+    .bt-voltar{
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    }
+    .cellphone{
+        width: 18%;
+        position: absolute;
+        margin-left: 9rem;
+        bottom: 33em;
+        animation: aniCell 7s infinite ease-in-out;
+    }
+    .cellphone2{
+        width: 23%;
+        position: absolute;
+        margin-left: 10rem;
+        bottom: 50em;
+        animation: aniCell 7s infinite ease-in-out;
+    }
+
+}
+.cellphone2{
+    width: 20%;
+    position: absolute;
+    right: 65em;
+    bottom: 15em;
+    animation: cellAnin 4s infinite ease-in-out;
+}
+.label-Login{
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: light;
+    color: black;
+}
+@keyframes cellAnin {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes aniCell {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(30px , 30px);
+    }
+    100%{
+        transform: translate(0);
+    }
+    
+}
